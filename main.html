@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Store</title>
+  </link>
+  <link rel="stylesheet" href="./mystyle.css"></link>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+</head>
+
+<body>
+  <div id="content"></div>
+  <div id="header">
+    <div class="logo">
+      <img alt="logo" src="eco.png">
+    </div>
+    <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div class="welcomeBox">
+      <div class="welcomeMessage">
+        <i class="material-icons">person_outline</i>
+        <span>Amjad Hamad</span>
+      </div>
+      <div class="cart">
+        <i class="material-icons">shopping_cart</i>
+        <span>1</span>
+    </div>
+  </div>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#Shop">Shop</a>
+    <a href="#Sale">Sale</a>
+    <a href="#Blog">Blog</a>
+    <a href="#about">About</a>
+    <a href="#Contact">Contact</a>
+ </div>
+
+  </div>
+  <div id="Pgcontent">
+    <div id="menu" class="Pagecontentfilter">
+      <h4 align="center"><font color="Green"><b>Filtter</b></font>
+        <span style='font-size:20x;'>&#8635;</span><font color="Green"><b>Refresh</b></font>
+        </h4>
+        <hr>
+      <div class="filter">
+       
+        <b><font color="Green">Color:</font></b>
+        <br>
+        <br>
+       <input type="checkbox" name="Red" value="Red"> Red
+       <input type="checkbox" name="Blue" value="Blue"> Blue
+       <br>
+       <input type="checkbox" name="Yellow” value= "Yellow"> Yellow
+       <input type="checkbox" name="Orange" value="Orange"> Orange
+       <br>
+       <input type="checkbox" name="Green" value="Green"> Green
+       <input type="checkbox" name="White" value="White"> White
+      </div>
+      <hr>
+      <div class="filter">
+        <b><font color="Green"> Categories:</font></b>
+        <br>
+        <br>
+         <input type="checkbox" name="Roses" value="Roses"> Roses
+         <input type="checkbox" name="Plants" value="Plants"> Plants
+         <br>
+         <input type="checkbox" name="Mixed Flower" value="Mixed Flower"> Mixed Flower
+       </div>
+       <hr>
+      <div class="filter">
+        <b><font color="Green">Price:</font></b>
+        <br>
+        <br>
+         <input type="number" name="quantity" min="145" max="300">
+         <input type="number" name="quantity" min="255" max="300">
+      </div>
+      <hr>
+      <div class="filter">
+        <b><font color="Green">Discount:</font></b>
+         <br>
+         <br>
+        <form action="/action_page.php">
+          <input type="number">
+          <br> 
+          <br>
+          <input type="submit">
+        </form>
+      </div>
+
+    </div>
+
+    <div class="Pagecontent">
+
+
+        
+        <div class="Product">
+            <img src="flowers/Screen Shot 2019-07-26 at 5.51.15 PM.png" height="240" width="250"> <br>
+            <b>MIXED FLOWER <br> ARRANGEMENT IN GLASS  <br></b>
+            <font color="Green">AED 145</font><center><a href="#" data-name="MIXED FLOWER ARRANGEMENT IN GLASS VASE" data-price="145" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+          </div>
+
+          <div class="Product">
+            <img src="plants/Screen Shot 2019-07-26 at 6.16.13 PM.png" height="240" width="250"><br>
+            <b>POTTED MONSTERA<br> PLANT  <br></b>
+            <font color="Green">AED 280</font><center><a href="#" data-name="POTTED MONSTERA PLANT" data-price="280" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+          </div>
+
+          <div class="Product">
+            <img src="plants/Screen Shot 2019-07-26 at 6.18.51 PM.png" height="240"  width="250"><br>
+            <b>POTTED BEGONIA<br> MACULATA <br></b>
+            <font color="Green">AED 280</font><center><a href="#" data-name="POTTED BEGONIA MACULATA" data-price="280" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+          </div>
+
+          <div class="Product">
+            <img src="flowers/Screen Shot 2019-07-30 at 9.36.37 PM.png" height="240"  width="250"><br>
+            <b>ARTIFICIAL LILY IN<br>GLASS <br></b>
+            <font color="Green">AED 180</font><center><a href="#" data-name="ARTIFICIAL LILY IN GLASS VASE" data-price="180" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+          </div>
+
+
+    
+       
+    
+    
+
+            <div class="Product">
+            <img src="flowers/Screen Shot 2019-07-26 at 5.51.52 PM.png" height="240" width="250"><br>
+            <b>ARTIFICAL ANEMONE IN <br>GLASS <br></b>
+            <font color="Green">AED 145</font><center><a href="#" data-name="ARTIFICAL ANEMONE IN GLASS VASE" data-price="145" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+            </div>
+
+            <div class="Product">
+            <img src="plants/Screen Shot 2019-07-26 at 6.16.45 PM.png" height="240" width="250"><br>
+            <b>POTTED PANCKAKE<br> PLANT <br></b>
+            <font color="Green">AED 255</font><center><a href="#" data-name="POTTED PANCKAKE PLANT" data-price="255" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+            </div>
+
+            <div class="Product">
+            <img src="plants/Screen Shot 2019-07-26 at 6.20.51 PM.png" height="240" width="250"><br>
+            <b>CALATHEA PLANT IN<br> CREMENT POT <br></b>
+            <font color="Green">AED 280</font><center><a href="#" data-name="CALATHEA PLANT IN CREMENT POT" data-price="280" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+            </div>
+
+            <div class="Product">
+            <img src="flowers/Screen Shot 2019-07-30 at 9.37.41 PM.png" height="240" width="250"><br>
+            <b>RTIFICAL LILY ARRANGEMENT<br> IN GLASS VASE <br></b>
+            <font color="Green">AED 145</font><center><a href="#" data-name="RTIFICAL LILY ARRANGEMENT IN GLASS VASE" data-price="145" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+            </div>
+
+
+    
+   
+
+            <div class="Product">
+            <img src="flowers/Screen Shot 2019-07-26 at 5.52.18 PM.png" height="240" width="250"><br>
+            <b>ARTIFICAL MEDIUM ROSE <br> ARRANGEMENT IN GLASS  <br></b>
+            <font color="Green">AED 175</font><center><a href="#" data-name="ARTIFICAL MEDIUM ROSE ARRANGEMENT IN GLASS VASE" data-price="175" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+            </div>
+
+            <div class="Product">
+            <img src="plants/Screen Shot 2019-07-26 at 6.18.08 PM.png" height="240" width="250"><br>
+            <b>POTTED VANILLA LEAF<br> PLANT <br></b>
+            <font color="Green">AED 240</font><center><a href="#" data-name="POTTED VANILLA LEAF PLANT " data-price="240" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+            </div>
+
+            <div class="Product">
+            <img src="plants/Screen Shot 2019-07-30 at 9.49.01 PM.png" height="240" width="250"><br>
+            <b>GEOMETRIC FERN <br></b>
+            <font color="Green">AED 225</font><center><a href="#" data-name="GEOMETRIC FERN" data-price="225" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+            </div>
+
+            <div class="Product">
+            <img src="flowers/Screen Shot 2019-07-26 at 5.52.48 PM.png" height="240" width="250"><br>
+            <b>MAGNOLIA IN GLASS<br> VASE<br></b>
+            <font color="Green">AED 165</font><center><a href="#" data-name="MAGNOLIA IN GLASS VASE" data-price="165" class="add-to-cart btn btn-primary"></a><br><button>Add</button><br></center>
+          </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+      <div class="Links">
+          <a href="#">Home</a>
+          |
+          <a href="#">Blog</a>
+          |
+          <a href="#">About</a>
+      </div>
+  
+      <br>
+  
+      <div class="Social">
+        <label>Contact Us:</label>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+  
+      <br>
+      <div class="PhoneNo">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i class="fa fa-phone"> +971501234567</i>
+      </div>
+  
+      <div class="copyright">
+          <p>&copy 2019 - MYStore</p>
+      </div>
+      </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
