@@ -1,76 +1,74 @@
-{
-  "products": [
-    {
-      "product-id": "1",
-      "name": "MIXED FLOWER ARRANGEMENT IN GLASS VASE",
-      "price": "AED 145",
-      "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.51.15 PM.png"
-    },
-    {
-      "product-id": "2",
-      "name": "POTTED MONSTERA PLANT",
-      "price": "AED 280",
-      "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.16.13 PM.png"
-    },
-    {
-      "product-id": "3",
-      "name": "POTTED BEGONIA MACULATA",
-      "price": "AED 280",
-      "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.18.51 PM.png"
-    },
-    {
-      "product-id": "4",
-      "name": "ARTIFICIAL LILY IN GLASS VASE",
-      "price": "AED 180",
-      "imageSRC": "./flowers/Screen Shot 2019-07-30 at 9.36.37 PM.png"
-    },
-    {
-      "product-id": "5",
-      "name": "ARTIFICAL ANEMONE IN GLASS VASE",
-      "price": "AED 145",
-      "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.51.52 PM.png"
-    },
-    {
-      "product-id": "6",
-      "name": "POTTED PANCKAKE PLANT",
-      "price": "AED 255",
-      "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.16.45 PM.png"
-    },
-    {
-      "product-id": "7",
-      "name": "CALATHEA PLANT IN CREMENT POT",
-      "price": "AED 280",
-      "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.20.51 PM.png"
-    },
-    {
-      "product-id": "8",
-      "name": "ARTIFICAL LILY ARRANGEMENT IN GLASS VASE",
-      "price": "AED 145",
-      "imageSRC": "./flowers/Screen Shot 2019-07-30 at 9.37.41 PM.png"
-    },
-    {
-      "product-id": "9",
-      "name": "ARTIFICAL MEDIUM ROSE ARRANGEMENT IN GLASS VASE ",
-      "price": "AED 175",
-      "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.52.18 PM.png"
-    },
-    {
-      "product-id": "10",
-      "name": "POTTED VANILLA LEAF PLANT",
-      "price": "AED 240",
-      "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.18.08 PM.png"
-    },
-    {
-      "product-id": "11",
-      "name": "GEOMETRIC FERN",
-      "price": "AED 225",
-      "imageSRC": "./plants/Screen Shot 2019-07-30 at 9.49.01 PM.png"
-    },
-    {
-      "product-id": "12",
-      "name": "MAGNOLIA IN GLASS<br> VASE ",
-      "price": "AED 165",
-      "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.52.48 PM.png"
-    }
-  ]
-}
+[
+  {
+    "product-id": "1",
+    "name": "MIXED FLOWER ARRANGEMENT IN GLASS VASE",
+    "price": "AED 145",
+    "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.51.15 PM.png"
+  },
+  {
+    "product-id": "2",
+    "name": "POTTED MONSTERA PLANT",
+    "price": "AED 280",
+    "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.16.13 PM.png"
+  },
+  {
+    "product-id": "3",
+    "name": "POTTED BEGONIA MACULATA",
+    "price": "AED 280",
+    "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.18.51 PM.png"
+  },
+  {
+    "product-id": "4",
+    "name": "ARTIFICIAL LILY IN GLASS VASE",
+    "price": "AED 180",
+    "imageSRC": "./flowers/Screen Shot 2019-07-30 at 9.36.37 PM.png"
+  },
+  {
+    "product-id": "5",
+    "name": "ARTIFICAL ANEMONE IN GLASS VASE",
+    "price": "AED 145",
+    "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.51.52 PM.png"
+  },
+  {
+    "product-id": "6",
+    "name": "POTTED PANCKAKE PLANT",
+    "price": "AED 255",
+    "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.16.45 PM.png"
+  },
+  {
+    "product-id": "7",
+    "name": "CALATHEA PLANT IN CREMENT POT",
+    "price": "AED 280",
+    "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.20.51 PM.png"
+  },
+  {
+    "product-id": "8",
+    "name": "ARTIFICAL LILY ARRANGEMENT IN GLASS VASE",
+    "price": "AED 145",
+    "imageSRC": "./flowers/Screen Shot 2019-07-30 at 9.37.41 PM.png"
+  },
+  {
+    "product-id": "9",
+    "name": "ARTIFICAL MEDIUM ROSE ARRANGEMENT IN GLASS VASE ",
+    "price": "AED 175",
+    "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.52.18 PM.png"
+  },
+  {
+    "product-id": "10",
+    "name": "POTTED VANILLA LEAF PLANT",
+    "price": "AED 240",
+    "imageSRC": "./plants/Screen Shot 2019-07-26 at 6.18.08 PM.png"
+  },
+  {
+    "product-id": "11",
+    "name": "GEOMETRIC FERN",
+    "price": "AED 225",
+    "imageSRC": "./plants/Screen Shot 2019-07-30 at 9.49.01 PM.png"
+  },
+  {
+    "product-id": "12",
+    "name": "MAGNOLIA IN GLASS<br> VASE ",
+    "price": "AED 165",
+    "imageSRC": "./flowers/Screen Shot 2019-07-26 at 5.52.48 PM.png"
+  }
+]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="loginstyle.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h2>Login Form</h2>
+
+    <form action="main.html" onsubmit="return Login()">
+
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input id="username"type="text" placeholder="Enter Username" name="uname" required />
+        <br>
+        <label for="psw"><b>Password</b></label>
+        <input id="password"
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required autocomplete="password"
+        />
+        
+        <a href="main.html"><button type="submit" id='submit'>Login</button></a>
+       
+      </div>
+      </div>
+    </form>
+  </body>
+  <script src="loginScript.js"></script>
+</html>
