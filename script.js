@@ -74,11 +74,6 @@ function createProducts(test) {
     img.src = obj.imageSRC;
     Mygallery.appendChild(img);
 
-    // var description = document.createElement("div");
-    // description.className = "desc";
-    // description.innerHTML = getDescription(obj);
-    // Product.appendChild(description);
-
     var p = document.createElement("p");
     p.className = "p";
     p.innerHTML = getDescription(obj);
@@ -130,6 +125,8 @@ function counter(currentCountParsed) {
   // var cartCount = cartCount.value;
   return currentCountParsed + 1;
 }
+
+//logout Function
 function logout() {
   window.location.replace("index.html");
 }
